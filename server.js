@@ -6,22 +6,21 @@ var app = express();
 app.use(morgan('combined'));
 
 var articleone= {
-    title: 'articleone | shakti'
-    heading: 'Articleone'
-    date: '4 oct'
+    title: 'articleone | shakti',
+    heading: 'Articleone',
+    date: '4 oct',
     content: `<p>
                         This is my first article.
             </p>`
     
 };
 
-function createTemplate{data} {
-    title=data.title;
-    heading=data.heading;
-    date=data.date;
-    content=data.content;
-}
-var htmltemplate=  {
+function createTemplate(data) {
+    title = data.title;
+    heading = data.heading;
+    date = data.date;
+    content = data.content;
+var htmlTemplate=`
   <html>
  <head>
      <title>
@@ -52,9 +51,9 @@ var htmltemplate=  {
           </body>
         
 </html>
-  
-    
-};
+`;
+ return htmlTemplate;
+}
 
 
 
