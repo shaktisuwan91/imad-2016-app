@@ -3,7 +3,7 @@ console.log('Loaded!');
 var element=document.getElementById("mainId");
 element.innerHTML="Bharat Mata Ki Jai";
 //move the image
-var element = document.getElementById("mee");
-element.onclick = function() {
-    element.style.marginleft = '100px';
+var img = document.getElementById("mee");
+img.onclick = function() {
+    img.style.marginleft = '100px';
 };
