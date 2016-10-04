@@ -16,21 +16,21 @@ var articles = {
     
 },
 'article-two' : {
-     title: 'articleone | shakti',
-    heading: 'Articleone',
-    date: '4 oct',
+     title: 'articletwo | shakti',
+    heading: 'Articletwo',
+    date: '5 oct',
     content: `<p>
-                        This is my first article.
+                        This is my second article.
             </p>`
     
     
 },
 'article-three' : {
-     title: 'articleone | shakti',
-    heading: 'Articleone',
-    date: '4 oct',
+     title: 'articlethree | shakti',
+    heading: 'Articlethree',
+    date: '6 oct',
     content: `<p>
-                        This is my first article.
+                        This is my third article.
             </p>`
     
 }
